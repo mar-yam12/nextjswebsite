@@ -1,0 +1,235 @@
+/* Background Gradient */
+.bg-gradient {
+  background: linear-gradient(to right, #bdc1c7, #7d8187, #747880);
+  width: auto;
+  height: auto;
+}
+
+/* Image Styles */
+.img-logo {
+  height: 9rem; 
+  width: 9rem;  
+  padding: 1.5rem; 
+  border-radius: 9999px; 
+}
+
+.img-homepage {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 0.5rem; 
+  align-items: flex-end;
+}
+.parent-container {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10rem; 
+  margin-top: -10rem;
+}
+
+
+/* Title and Text */
+.font-light {
+  font-weight: 300;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
+.text-center {
+  text-align: start;
+}
+
+/* Button Styles */
+.btn-shop-now {
+  font-weight: 800; 
+  background-color: #6b7280; 
+  border-radius: 0.5rem; 
+  height: 2.5rem; 
+  width: 7rem; 
+  transition: background-color 0.3s;
+}
+
+.btn-shop-now:hover {
+  background-color: #4b5563; 
+}
+
+/* Spacing */
+.pt-20 {
+  padding-top: 5rem; 
+}
+
+.pl-28 {
+  padding-left: 7rem; 
+}
+
+.pb-24 {
+  padding-bottom: 6rem; 
+}
+
+.pr-28 {
+  padding-right: 7rem; 
+}
+
+.-mt-44 {
+  margin-top: -11rem; 
+}
+
+/* Navbar Container */
+.navbar-container {
+  background-color: black; 
+  color: white; 
+  font-family: 'Monospace', monospace; 
+  height: 3.5rem; 
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+}
+
+/* Navbar Links */
+.navbar-links {
+  display: flex;
+  gap: 1rem; 
+  padding: 1rem; 
+}
+
+.navbar-links a {
+  color: white; 
+  text-decoration: none; 
+  font-weight: normal;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline; 
+}
+
+/* Background Gradient */
+.bg-gradient {
+  background: linear-gradient(to right, #e2e8f0, #cbd5e1, #d1d5db); 
+  width: auto;
+  height: auto;
+}
+
+/* Container Padding */
+.container-padding {
+  padding: 13rem; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column; 
+}
+
+/* Header Font */
+.font-extrabold {
+  font-weight: 800; 
+}
+
+/* Text Styling */
+p {
+  font-weight: normal;
+}
+
+/* Background Gradient */
+.bg-gradient {
+  background: linear-gradient(to right, #e2e8f0, #cbd5e1, #d1d5db); 
+  width: auto;
+  height: auto;
+}
+
+/* Container for Heading */
+.centered-heading {
+  display: flex;
+  justify-content: center; 
+  padding-top: 2.5rem; 
+}
+
+/* Header Text */
+.bold-italic-heading {
+  font-weight: 800; 
+  font-style: italic; 
+}
+
+/* Section Container for Products */
+.product-container {
+  display: flex;
+  justify-content: space-between; 
+  padding-left: 3.5rem; 
+  padding-right: 3.5rem; 
+  padding-top: 3.5rem; 
+}
+
+/* Column Styling for Products */
+.product-column {
+  display: flex;
+  flex-direction: column; 
+  gap: 3.5rem; 
+}
+
+/* Center Column Styling */
+.center-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+/* Image Styling (padding left/right) */
+.image-padding-left {
+  padding-left: 2rem; 
+}
+
+.image-padding-right {
+  padding-right: 2.5rem;
+}
+
+/* Background Gradient */
+.bg-gradient {
+  background: linear-gradient(to right, #e2e8f0, #cbd5e1, #d1d5db); 
+  width: auto;
+  height: auto;
+}
+
+/* Heading Styling */
+.contact-heading {
+  font-size: 1.875rem; 
+  font-weight: 700; 
+  text-align: center; 
+  margin-bottom: 1.5rem; 
+  padding-top: 2rem; 
+}
+
+/* Form Container */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; 
+}
+
+/* Input and Textarea Styles */
+.input-field,
+.textarea-field {
+  width: 100%; 
+  padding: 1rem; 
+  border: 1px solid black; 
+  border-radius: 0.5rem; 
+}
+
+/* Button Styles */
+.submit-button {
+  padding: 0.75rem 1.5rem; 
+  background-color: #9ca3af; 
+  color: white; 
+  font-weight: 600; 
+  border-radius: 0.5rem; 
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #6b7280; 
+}
+
+/* Flex Container for Button */
+.button-container {
+  display: flex;
+  justify-content: center; 
+}
